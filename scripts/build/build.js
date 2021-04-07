@@ -42,7 +42,8 @@ var webapp = function(config) {
           cwd: config.workspace,
           name: config.name,
           cmd: config.buildCommand,
-          outDir: config.webappOutput
+          outDir: config.webappOutput,
+          maxBuffer: 1024 * 500
         });
       })
       .then(function() {
