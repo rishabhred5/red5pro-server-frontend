@@ -107,6 +107,7 @@ var buildWebapp = function(options) {
       log(
         chalk.yellow('Building ' + options.name + ' using ' + command + '...')
       );
+      log(chalk.blue('OPTIONS: ' + JSON.stringify(options, null, 2)));
       var child = exec([options.cmd, '> build.log'].join(' '), options, function(err) {
         if(err) {
           reject(err);
