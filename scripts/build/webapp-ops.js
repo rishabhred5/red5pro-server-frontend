@@ -127,7 +127,7 @@ var buildWebapp = function(options) {
           }
         }
       });
-      child.stdout.pipe(process.stdout);
+      // child.stdout.pipe(process.stdout);
     }
     else {
       resolve();
