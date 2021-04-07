@@ -43,7 +43,7 @@ var webapp = function(config) {
           name: config.name,
           cmd: config.buildCommand,
           outDir: config.webappOutput,
-          maxBuffer: 1024 * 500
+          maxBuffer: 1024 * 2048
         });
       })
       .then(function() {
