@@ -5,7 +5,7 @@
   },
   "r5pro-streammanager": {
     "repositoryUrl": "git@github.com:infrared5/red5pro-auto-scaling.git",
-    "branch": "develop"
+    "branch": "feature/qa-testing-example-RPRO-8471"
 
   },
   "r5pro-api": {
